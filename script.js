@@ -8,7 +8,7 @@ function volume_sphere(event) {
 
     // Corrected typos in the next two lines
     let volume = document.getElementById("volume");
-    form["volume"].value =( 4/3 * Math.PI * Math.pow(radius,3)).tofixed(4);
+    form["volume"].value =( 4/3 * Math.PI * Math.pow(radius,3)).toFixed(4);
 }
 
 window.onload = function() {
